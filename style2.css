@@ -1,0 +1,123 @@
+*{
+    width: 100%;
+    margin: 0px;
+}
+#image{
+    width: 250px;
+    height: 90px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    background-size: 10px;
+    justify-content: space-between;
+}
+.nav-bar{
+   width: 90%;
+   margin-top: 33px;
+   font-size: larger;
+   justify-content: space-between;
+}
+
+.header{
+    background-image: url("https://img2.storyblok.com/1200x630/f/102932/6581x4568/2fe0ba33cd/royal-enfield-hunter-350.jpg");
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+#head1{
+    margin-top: -500px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    background-color: rgba(0red,0green,0blue,0.1alpha);
+}
+.sub-head{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+    background-color: black;
+  
+}
+.row{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;   
+
+}
+.col{
+    width: 27%;
+    height: 500px;
+    margin-top: 10px;
+}
+.col>#sub{
+    text-align: center;
+    color: white;
+}
+
+.link{
+   height: 5%;
+   text-align: center;
+    text-decoration: none;
+    
+    color: black;
+}
+h3{
+    color: whitesmoke;   
+}
+.header-2{
+    background-image: url("./images/Royal-Enfield-Showroom-Delhi.jpg");
+   
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+   color: whitesmoke;
+   display: flex;
+}
+#locate{
+    font-size: larger;
+}
+#dealer{
+    display: flex;
+    color: red;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+}
+#copyright{
+    color: black;
+}
+.link{
+    font-size: larger;
+    color: red;
+}
+.footer{
+    background-image: url("https://studiolotus.in/uploads/SPIN/projects/40/E_03.jpg?4780");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.link{
+    background-color: black;
+    color: red;
+}
+#model{
+    color: whitesmoke;
+}
+#paragraph{
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+}
